@@ -1,0 +1,112 @@
+html, body{
+	height:100%;
+	width:100%;
+	background-image: url("http://styles.prosites.com/litesite/2077/images/bg.jpg");
+}
+header{
+	color: #958673;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	max-width:1200px;
+	margin:auto;
+}
+.tplnks {
+	margin:20px 0;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.tplnks li {
+	margin: 5px 10px;
+	content:;
+}
+.main {
+	height:2000px;
+	width:1200px;
+	background:#FFFFFF;
+	margin:50px auto;
+	padding: 10px 0;
+}
+.addnum {
+	display:flex;
+	flex-flow: row;
+}
+.address {
+	margin:15px 100px 15px 115px;
+}
+.phone {
+	font-size: 30px;
+	color:#958673;
+	margin: 107px 25px 0 0;
+}
+.img_bar {
+	width:100%;
+	height:284px;
+	background: #776855;
+}
+.img_exp {
+	margin:auto;
+	width:994px;
+}
+.name {
+	margin: 40px 140px;
+}
+.dan {
+	text-align: center;
+}
+.utley {
+	margin:auto;
+	width:199px;
+}
+.bio {
+	margin: 0 163px;
+	line-height: 125%;
+}
+ul {
+	line-height: 175%;
+}
+.docs {
+	width:149px;
+	margin: 10px auto;
+}
+.ada {
+	margin: auto;
+	width:400px;
+}
+footer {
+	margin: 75px 0 0 0;
+}
+.bttop {
+	margin:auto;
+	width:990px;
+}
+.bl {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin:15px auto;
+	width:950px;
+	color: #958673;
+	text-transform: uppercase;
+}
+.bl div {
+	margin:5px;
+}
+.dev {
+	text-align: center;
+	margin-top: 20px;
+}
+@media (max-width: 1000px) {
+	.main {
+		width:994px;
+	}
+	.img_bar {
+		width:994px;
+	}
+	.address {
+		margin:15px;
+	}
+	.name {
+		margin:40px;
+	}
+}
